@@ -49,9 +49,8 @@ app.use('/', route);
 // }
 
 
-//clac time before 
+exports.app = app;
 
-
-app.listen(4000, ()=>{
-    console.log('The server is Turn on port 4000');
-})
+// app.listen(4000, ()=>{
+//     console.log('The server is Turn on port 4000');
+// })
